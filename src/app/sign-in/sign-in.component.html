@@ -1,0 +1,21 @@
+<div  fxLayoutAlign="center"  fxLayout="row">
+  <div class="container" class.sm="container-md" class.xs="container-xs">
+    <span class="top">Sign In</span>
+    <input  type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <button  md-raised-button class="sign-in">
+      Sign In
+    </button>
+    <span class="line"><hr></span>
+      <span class="or">or</span>
+      <span class="line"><hr></span>
+    <button md-raised-button class="sign-google">
+      <i class="fa fa-google" aria-hidden="true"></i>
+      Sign in with Google
+    </button>
+    <p class="already">
+      Don't have an account?
+       <span [routerLink]="['/sign-up']">Sign up</span>
+    </p>
+  </div>
+</div>

@@ -22,7 +22,7 @@ import {
   MdTabsModule,
   MdToolbarModule,
   MdTooltipModule
-} from '@angular/material';
+}  from '@angular/material';
 
 export const MaterialModules = [
   MdAutocompleteModule,
