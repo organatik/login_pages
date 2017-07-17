@@ -13,6 +13,9 @@
   padding: 30px;
   text-align: center;
 }
+img{
+  margin-top: 30px;
+}
 .top{
   display: block;
   margin-bottom: 40px;
@@ -36,6 +39,8 @@
 }
 .already span {
   color: #2FB2B6;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+
 }
 .already span:hover{
   cursor: pointer;

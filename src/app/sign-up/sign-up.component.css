@@ -19,6 +19,9 @@
   font-family: Roboto,"Helvetica Neue",sans-serif;
   margin-top: 100px;
 }
+img{
+  margin-top: 30px;
+}
 .or{
   margin-bottom: 20px;
   display: inline-block;
@@ -36,6 +39,8 @@
 }
 .already span {
   color: #2FB2B6;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+
 }
 .already span:hover{
   cursor: pointer;

@@ -11,6 +11,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import {RouterModule, Routes} from "@angular/router";
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomeSignUpComponent } from './home-sign-up/home-sign-up.component';
+import {ReactiveFormsModule} from '@angular/forms';
 
 const appRoutes: Routes = [
   { path: 'sign-in', component: SignInComponent },
@@ -35,6 +36,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     MaterialModules,
     FlexLayoutModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
