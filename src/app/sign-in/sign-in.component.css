@@ -16,6 +16,8 @@
 .top{
   display: block;
   margin-bottom: 40px;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  margin-top: 100px;
 }
 .or{
   margin-bottom: 20px;

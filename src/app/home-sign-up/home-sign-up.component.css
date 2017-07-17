@@ -4,10 +4,9 @@
   height: 120vh;
 }
 .header{
-  padding: 29px 50px;
+  padding: 16px 50px;
   color: white;
   border-bottom: 1px solid #4F4E77;
-  height: 18px;
   z-index: 10;
 }
 .header span {
@@ -18,6 +17,7 @@
 }
 .header span:nth-child(2){
   float: right;
+  padding-top: 15px;
 }
 .text{
   color: white;
@@ -51,6 +51,7 @@
   margin-bottom: 50px;
   display: block;
   font-size: 20px;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
 }
 .top{
   display: block;
