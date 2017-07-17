@@ -16,12 +16,15 @@
 img{
   margin-top: 30px;
 }
+button:disabled{
+  cursor: not-allowed;
+}
 .top{
   display: block;
   margin-bottom: 40px;
   font-family: Roboto,"Helvetica Neue",sans-serif;
   margin-top: 100px;
-  font-weight: 500;
+  font-weight: bolder;
 }
 .or{
   margin-bottom: 20px;
