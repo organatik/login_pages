@@ -2,10 +2,10 @@
   <div class="container" class.sm="container-md" class.xs="container-xs">
     <img src="../../assets/logotest.png" alt="Logo">
     <span class="top">Sign In</span>
-    <form [formGroup]="myForm"
-          (ngSubmit)=onSubmit(myForm.value)>
-      <input  type="email" placeholder="Email" id="email" [formControl]="email" required>
-      <input type="password" placeholder="Password" id="password" [formControl]="password" required>
+    <!--<form [formGroup]="myForm"-->
+          <!--(ngSubmit)=onSubmit(myForm.value)>-->
+      <input  type="email" placeholder="Email" id="email"  required>
+      <input type="password" placeholder="Password" id="password"  required>
       <button  md-raised-button class="sign-in">
         Sign In
       </button>
@@ -16,7 +16,7 @@
         <i class="fa fa-google" aria-hidden="true"></i>
         Sign in with Google
       </button>
-    </form>
+    <!--</form>-->
     <p class="already">
       Don't have an account?
        <span [routerLink]="['']">Sign up</span>

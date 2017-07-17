@@ -21,6 +21,7 @@ img{
   margin-bottom: 40px;
   font-family: Roboto,"Helvetica Neue",sans-serif;
   margin-top: 100px;
+  font-weight: 500;
 }
 .or{
   margin-bottom: 20px;
@@ -40,7 +41,6 @@ img{
 .already span {
   color: #2FB2B6;
   font-family: Roboto,"Helvetica Neue",sans-serif;
-
 }
 .already span:hover{
   cursor: pointer;
